@@ -1,10 +1,12 @@
+import './home_style.css'
+import images from './images.jpeg'
 function home_content(){
     const content= document.createElement("div")
-    const img_content=document.createElement("img")
-    img_content.setAttribute("src","/home/deetsy4455/repos/restaurant_page/images.jpeg")
-    img_content.setAttribute("alt","Some Image of our restaurant")
+    const img_content=new Image();
+    img_content.src = images;
     content.appendChild(img_content)
     const heading=document.createElement("h1")
+    heading.classList.add("heading")
     heading.innerHTML ="Restuarant Gum-Gum!";
     content.appendChild(heading);
     const paragraph=document.createElement("p")
