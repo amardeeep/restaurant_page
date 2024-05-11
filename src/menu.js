@@ -50,7 +50,7 @@ function menu_content(){
         content.appendChild(dishes);  
         
     }
-    return { content}
+    return content
 
 }
 export {menu_content}
