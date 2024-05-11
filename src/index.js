@@ -15,6 +15,15 @@ import {menu_content} from "./menu"
         div.appendChild(home_content());
 
     })
+    const body = document.querySelector("body");
+    body.addEventListener("load",function (){
+        while(div.hasChildNodes()){
+        div.removeChild(div.firstChild);
+       }
+        div.appendChild(home_content());
+
+    })
+    
 
     menu_btn.addEventListener("click",function(){
         while(div.hasChildNodes()){
@@ -24,7 +33,7 @@ import {menu_content} from "./menu"
     })
     
     
-    console.log(heading)
+    
     
 
 
