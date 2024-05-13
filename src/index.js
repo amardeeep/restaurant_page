@@ -1,6 +1,7 @@
 import { contact_content } from "./contact";
 import { home_content } from "./home"
 import {menu_content} from "./menu"
+import './index_style.css';
 
 
     const div=document.getElementById("content")

@@ -1,5 +1,5 @@
 import './home_style.css'
-import images from './images.jpeg'
+import images from './hungry.jpeg'
 function home_content(){
     const content= document.createElement("div")
     const img_content=new Image();
